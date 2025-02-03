@@ -6,7 +6,7 @@ on:
       - hw*
 
 env:
-  GO111MODULE: "on"
+  GO111MODULE: 'on'
 
 jobs:
   lint:

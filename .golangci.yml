@@ -13,7 +13,7 @@ linters-settings:
       Main:
         files:
           - $all
-          - "!$test"
+          - '!$test'
         allow:
           - $gostd
       Test:
@@ -42,7 +42,7 @@ linters:
     - durationcheck
     - errorlint
     - exhaustive
-    - exportloopref
+    - copyloopvar
     - funlen
     - gci
     - gocognit
